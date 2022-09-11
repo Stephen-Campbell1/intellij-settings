@@ -1,0 +1,87 @@
+<keymap version="1" name="Windows copy" parent="$default">
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="ctrl back_quote" />
+  </action>
+  <action id="Adtui.ZoomOutAction">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CIDR.Debugger.ShowInMemoryView" />
+  <action id="ChangesView.ShelveSilently" />
+  <action id="CloseEditor">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseExpandableComponent">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="Console.Execute.Multiline" />
+  <action id="Console.SplitLine" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
+  <action id="EditorDecreaseFontSize">
+    <keyboard-shortcut first-keystroke="ctrl minus" />
+  </action>
+  <action id="EditorIncreaseFontSize">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorSplitLine" />
+  <action id="ExpandAllRegions">
+    <keyboard-shortcut first-keystroke="shift ctrl add" />
+  </action>
+  <action id="ExpressionTypeInfo" />
+  <action id="ExternalSystem.CollapseAll">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="FileChooser.TogglePathShowing" />
+  <action id="FindPrevious">
+    <keyboard-shortcut first-keystroke="shift f3" />
+  </action>
+  <action id="Git.Branches" />
+  <action id="GotoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="ctrl subtract" />
+  </action>
+  <action id="KotlinShellExecute" />
+  <action id="MethodHierarchy" />
+  <action id="MethodHierarchy.BaseOnThisMethod" />
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="shift ctrl l" />
+  </action>
+  <action id="OpenInRightSplit">
+    <keyboard-shortcut first-keystroke="shift enter" />
+    <mouse-shortcut keystroke="alt button1 doubleClick" />
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="ParameterInfo" />
+  <action id="QuickChangeScheme" />
+  <action id="SearchEverywhere">
+    <keyboard-shortcut first-keystroke="ctrl p" />
+  </action>
+  <action id="SmartSelect" />
+  <action id="SplitChooser.Duplicate" />
+  <action id="StretchSplitToLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+  </action>
+  <action id="Terminal.OpenInTerminal">
+    <keyboard-shortcut first-keystroke="shift ctrl back_quote" />
+  </action>
+  <action id="Terminal.SmartCommandExecution.Run" />
+  <action id="UpdateRunningApplication" />
+  <action id="ViewSource" />
+  <action id="android.deploy.ApplyChanges">
+    <keyboard-shortcut first-keystroke="ctrl f10" />
+  </action>
+  <action id="android.deploy.CodeSwap">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+</keymap>
